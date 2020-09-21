@@ -7,7 +7,7 @@ const PORT = process.env.PORT;
 const mongoose = require('mongoose');
 
 app.get('/', (req, res) => {
-    res.send("hello");
+    res.sendFile(__dirname + "/public/index.html");
 });
 
 mongoose.connect(process.env.DATABASE_URI || process.env.MONGODB_URI, {
