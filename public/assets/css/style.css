@@ -1,3 +1,5 @@
+@import './waterbears.css';
+
 *, body, html, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
